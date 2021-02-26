@@ -197,15 +197,15 @@ Project Link: [https://github.com/cyntaax/fivem-fishing](https://github.com/cynt
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/cyntaax/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/cyntaax/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cyntaax/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/cyntaax/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/cyntaax/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/cyntaax/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cyntaax/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/cyntaax/repo/issues
-[license-shield]: https://img.shields.io/github/license/cyntaax/repo.svg?style=for-the-badge
-[license-url]: https://github.com/cyntaax/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/cyntaax/fivem-fishing.svg?style=for-the-badge
+[contributors-url]: https://github.com/cyntaax/fivem-fishing/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cyntaax/fivem-fishing.svg?style=for-the-badge
+[forks-url]: https://github.com/cyntaax/fivem-fishing/network/members
+[stars-shield]: https://img.shields.io/github/stars/cyntaax/fivem-fishing.svg?style=for-the-badge
+[stars-url]: https://github.com/cyntaax/fivem-fishing/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cyntaax/fivem-fishing.svg?style=for-the-badge
+[issues-url]: https://github.com/cyntaax/fivem-fishing/issues
+[license-shield]: https://img.shields.io/github/license/cyntaax/fivem-fishing.svg?style=for-the-badge
+[license-url]: https://github.com/cyntaax/fivem-fishing/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/cyntaax
