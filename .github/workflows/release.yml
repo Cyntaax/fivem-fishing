@@ -15,7 +15,7 @@ jobs:
           node-version: 12.x
       - name: Build
         run: |
-          apt update && apk upgrade && apk install zip && cp -r src fishing && zip -r release.zip fishing
+          cp -r src fishing && zip -r release.zip fishing
       - name: Release
         run: |
           npx semantic-release
