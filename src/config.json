@@ -1,0 +1,16 @@
+{
+  "key": "PERIOD",
+  "lures": [
+    {
+      "name": "lure_basic_01",
+      "label": "Basic Lure",
+      "catches": [
+        {
+          "name": "small_fish_01",
+          "label": "Small Fish",
+          "prob": 10
+        }
+      ]
+    }
+  ]
+}
