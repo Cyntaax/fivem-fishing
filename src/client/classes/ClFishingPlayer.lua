@@ -54,9 +54,7 @@ end
 ---@param message string
 ---@param messageType string
 function ClFishingPlayer:ShowMessage(message, messageType)
-    if type(ClFishing.ShowMessage) == "function" then
-        ClFishing.ShowMessage(message, messageType)
-    end
+    ClFishing.ShowMessage(message, messageType)
 end
 
 ---@param message string

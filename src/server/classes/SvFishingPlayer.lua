@@ -57,9 +57,5 @@ end
 ---@param name string
 ---@param amount number
 function SvFishingPlayer:AddItem(name, amount)
-    if type(SvFishing.GivePlayerItem) == "function" then
-        SvFishing.GivePlayerItem(self.Source, name, amount)
-    else
-        print("^1[" .. GetCurrentResourceName() .. "]: no add item hook set. please refer to documentation^7")
-    end
+    SvFishing.GivePlayerItem(self.Source, name, amount)
 end
