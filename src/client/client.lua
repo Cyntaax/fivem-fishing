@@ -34,9 +34,7 @@ ClFishing = {
 
 ---@type fun(message: string, messageType: string)
 function ClFishing:SetMessageHandler(handler)
-    if type(handler) == "function" then
-        self.ShowMessage = handler
-    end
+    self.ShowMessage = handler
 end
 
 ClFishingPlayer:On("lure", function(data)
@@ -91,37 +89,25 @@ RegisterCommand('fish', function()
 end)
 
 exports('SetShowMessage', function(handler)
-    if type(handler) == "function" then
-        ClFishing.ShowMessage = handler
-    end
+    ClFishing.ShowMessage = handler
 end)
 
 exports('SetOnTestingProgress', function(handler)
-    if type(handler) == "function" then
-        ClFishing.TestingProgress = handler
-    end
+    ClFishing.TestingProgress = handler
 end)
 
 exports('SetOnTestingComplete', function(handler)
-    if type(handler) == "function" then
-        ClFishing.TestingComplete = handler
-    end
+    ClFishing.TestingComplete = handler
 end)
 
 exports('SetCheckRodCallback', function(handler)
-    if type(handler) == "function" then
-        ClFishingPlayer.CheckRodCallback = handler
-    end
+    ClFishingPlayer.CheckRodCallback = handler
 end)
 
 exports('SetOnFishCaught', function(handler)
-    if type(handler) == "function" then
-        ClFishingPlayer.OnFishCaught = handler
-    end
+    ClFishingPlayer.OnFishCaught = handler
 end)
 
 exports('SetOnCatchPending', function(handler)
-    if type(handler) == "function" then
-        ClFishingPlayer.CatchPending = handler
-    end
+    ClFishingPlayer.CatchPending = handler
 end)

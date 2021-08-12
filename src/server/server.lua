@@ -12,10 +12,8 @@ SvFishing = {
 
 ---@param handler fun(source: number, item: string, amount: number): void
 function SvFishing:SetGiveHandler(handler)
-    if type(handler) == "function" then
-        self.GivePlayerItem = function(source, item, amount)
-            handler(source, item, amount)
-        end
+    self.GivePlayerItem = function(source, item, amount)
+        handler(source, item, amount)
     end
 end
 
@@ -59,9 +57,7 @@ for k,v in pairs(EventHandlers) do
     RegisterNetEvent(eventName)
     AddEventHandler(eventName, function(...)
         local source = source
-        if type(SvFishing[v.Handler]) == "function" then
-            SvFishing[v.Handler](svFishing, source, ...)
-        end
+        SvFishing[v.Handler](svFishing, source, ...)
     end)
 end
 
@@ -72,15 +68,11 @@ RegisterCommand('setlure', function(source, args, raw)
 end)
 
 exports('SetGivePlayerItem', function(handler)
-    if type(handler) == "function" then
-        SvFishing.GivePlayerItem = handler
-    end
+    SvFishing.GivePlayerItem = handler
 end)
 
 exports('SetLureHandler', function(handler)
-    if type(handler) == "function" then
-        SvFishing.SetLureHandler = handler
-    end
+    SvFishing.SetLureHandler = handler
 end)
 
 exports('SetLureForPlayer', function(source, lure)
